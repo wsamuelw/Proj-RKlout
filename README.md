@@ -1,3 +1,2 @@
-# RKlout
-Extracting Klout score for Twitter followers
-# The code
+# R Code
+This is my R playground only
