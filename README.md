@@ -2,7 +2,7 @@
 
 What is Klout Score?
 
-The [Klout Score](https://klout.com/corp/score) is a number between 1-100 that represents your influence. The more influential you are, the higher your Klout Score.
+The [Klout Score](https://klout.com/corp/score) is a number between 1-100 that represents your influence. The more influential you are, the higher your Klout Score. The average Klout Score is 40. Users with a score of 63 are in the top 5% of all users.
 
 Based on a very small population of 900+ followers, most users have a score of around 40ish. The 0s simply mean undefined.
 
