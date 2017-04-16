@@ -1,5 +1,5 @@
-# Distribution by Klout Score
-Based on a very small population of 900+ followers, most users have a score of around 40ish.
+# Twitter Followers + Klout Score
+Based on a very small population of 900+ followers, most users have a score of around 40ish. The 0s simply mean undefined.
 
 ```{r}
 # Make a plot
@@ -11,7 +11,7 @@ ggplot(FLR_PROFILE, aes(Klout_Score)) +
 
 ![Image 1](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score.png)
 
-What if grouping by verified users?  
+Hypothesis = Verified Twitter users could have a relatively high Klout score. Maybe?
 
 ```{r}
 # Make a plot
