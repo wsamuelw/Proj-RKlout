@@ -1,4 +1,9 @@
 # Twitter Followers + Klout Score
+
+What is Klout Score?
+
+The [Klout Score](https://klout.com/corp/score) is a number between 1-100 that represents your influence. The more influential you are, the higher your Klout Score.
+
 Based on a very small population of 900+ followers, most users have a score of around 40ish. The 0s simply mean undefined.
 
 ```{r}
