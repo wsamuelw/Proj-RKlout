@@ -11,7 +11,12 @@ ggplot(FLR_PROFILE, aes(Klout_Score)) +
 
 ![Image 1](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score.png)
 
-# Title goes here
-This image is only for testing purpose.
+What if grouping by verified users?  
 
-![Image 2](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score.png)
+```{r}
+# Make a plot
+ggplot(FLR_PROFILE, aes(Klout_Score, fill = verified)) +
+  geom_histogram(binwidth = 2)
+```
+
+![Image 2](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score_Verified.png)
