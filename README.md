@@ -20,3 +20,11 @@ ggplot(FLR_PROFILE, aes(Klout_Score, fill = verified)) +
 ```
 
 ![Image 2](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score_Verified.png)
+
+To make it easy to compare the distributions, use density.
+
+```{r}
+# Make a plot
+ggplot(FLR_PROFILE, aes(Klout_Score, ..density.., colour = verified)) +
+  geom_freqpoly(binwidth = 2)
+```
