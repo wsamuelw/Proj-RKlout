@@ -21,10 +21,13 @@ ggplot(FLR_PROFILE, aes(Klout_Score, fill = verified)) +
 
 ![Image 2](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score_Verified.png)
 
-To make it easy to compare the distributions, use density.
+To make it easy to compare the distributions, use density. Hmm... it looks like verified users tend to have a higher score.
 
 ```{r}
 # Make a plot
 ggplot(FLR_PROFILE, aes(Klout_Score, ..density.., colour = verified)) +
   geom_freqpoly(binwidth = 2)
 ```
+
+![Image 3](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score_Density.png)
+
