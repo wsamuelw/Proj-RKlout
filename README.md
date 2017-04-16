@@ -14,7 +14,7 @@ ggplot(FLR_PROFILE, aes(Klout_Score)) +
   geom_histogram(binwidth = 2)
 ```
 
-![Image 1](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score.png)
+![Image 1](https://github.com/wsamuelw/R-Code/blob/master/IMG/Distribution_by_Klout_Score.png)
 
 Hypothesis = Verified Twitter users could have a relatively high Klout score. Maybe?
 
@@ -24,7 +24,7 @@ ggplot(FLR_PROFILE, aes(Klout_Score, fill = verified)) +
   geom_histogram(binwidth = 2)
 ```
 
-![Image 2](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score_Verified.png)
+![Image 2](https://github.com/wsamuelw/R-Code/blob/master/IMG/Distribution_by_Klout_Score_Verified.png)
 
 To make it easy to compare the distributions, use density. Hmm... it looks like verified users tend to have a higher score.
 
@@ -34,5 +34,5 @@ ggplot(FLR_PROFILE, aes(Klout_Score, ..density.., colour = verified)) +
   geom_freqpoly(binwidth = 2)
 ```
 
-![Image 3](https://github.com/wsamuelw/R-Code/blob/master/Images/Distribution_by_Klout_Score_Density.png)
+![Image 3](https://github.com/wsamuelw/R-Code/blob/master/IMG/Distribution_by_Klout_Score_Density.png)
 
